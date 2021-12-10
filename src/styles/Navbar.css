@@ -1,0 +1,37 @@
+.navbar {
+  background-color: var(--bg-clr);
+  padding: 0 3rem;
+  box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  width: auto;
+  height: 5rem;
+}
+
+.navbar__navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.navbar__link {
+  padding: 1rem;
+}
+
+.navbar__link:hover {
+  color: var(--alt-clr)
+}
+

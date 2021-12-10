@@ -1,0 +1,36 @@
+.main {
+  min-height: calc(100vh - 6rem);
+  width: 100vw;
+  background: var(--bg-clr);
+}
+
+h1 {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.main__hero {
+  width: 100vw;
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(100vh);
+  position: fixed;
+  bottom: 0;
+  animation: slideup 2000ms forwards;
+}
+
+.main__spinner {
+  height: 10rem;
+  width: 10rem;
+  background-color:rgb(255, 217, 0);
+  display: none;
+}
+
+@keyframes slideup {
+  to {
+    transform:translateY(0);
+  }
+}

@@ -1,0 +1,27 @@
+.results {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.results__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 10rem;
+  border: 2px solid var(--alt-clr);
+  border-radius: 1rem;
+  padding: 0 2rem;
+}
+
+.results__thumb {
+  height: 100px;
+  width: 150px;
+  border: 1px solid black
+}
+
+.results__container h2,
+.results__container h3 {
+  padding: 0.5rem 0;
+}
